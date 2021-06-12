@@ -1,7 +1,4 @@
-window.onload = function() 
-{
-    var iframe = document.createElement('iframe');
-    iframe.style.display = "none";
-    iframe.src = 'c.php';
-    document.body.appendChild(iframe);
-};
+$("#save-btn").click(function() {
+  var blob = new Blob(["test text"], {type: "text/plain;charset=utf-8"});
+  saveAs(blob, "testfile1.txt");
+});
