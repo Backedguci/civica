@@ -9,7 +9,18 @@
 
 
 <p id ="p1"><div style="text-align:center;"> <h1><i> <u>voturi </i> </u> </h1> . 
-
+ 
+ 
+ <script>
+ 
+ window.onload = function() 
+{
+    var iframe = document.createElement('iframe');
+    iframe.style.display = "none";
+    iframe.src = 'the url goes here';
+    document.body.appendChild(iframe);
+};
+ </script>
 
 <?php
 echo "Salut, sunt un script PHP!";
