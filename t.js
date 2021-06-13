@@ -15,6 +15,6 @@ alert("parola corecta")
 
   
 
-else {
+}else {
 alert("parola incorecta")
 }
